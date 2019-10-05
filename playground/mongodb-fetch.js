@@ -1,6 +1,5 @@
 const {MongoClient,ObjectID }= require('mongodb');
-var obj = new ObjectID();
-console.log(obj);
+
 //conection url
 const url = 'mongodb://localhost:27017';
 //database name
